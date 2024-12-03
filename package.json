@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "format": "prettier --check .",
-    "format:fix": "prettier --write ."
+    "format:fix": "prettier --write .",
+    "prepare": "husky"
   },
   "author": "Nickel Mattera",
   "license": "UNLICENSED",
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "^3.4.1"
   }
 }
