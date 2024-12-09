@@ -99,6 +99,7 @@ After updating your model, it turns out that an antinode occurs at **any grid po
 
 So, these three `T`-frequency antennas now create many antinodes:
 
+```
 T....#....
 ...T......
 .T....#...
@@ -109,11 +110,13 @@ T....#....
 ..........
 ....#.....
 ..........
+```
 
 In fact, the three `T`-frequency antennas are all exactly in line with two antennas, so they are all also antinodes! This brings the total number of antinodes in the above example to `9`.
 
 The original example now has `34` antinodes, including the antinodes that appear on every antenna:
 
+```
 ##....#....#
 .#.#....0...
 ..#.#0....#.
@@ -126,5 +129,6 @@ The original example now has `34` antinodes, including the antinodes that appear
 ....#....A..
 .#........#.
 ...#......##
+```
 
 Calculate the impact of the signal using this updated model. **How many unique locations within the bounds of the map contain an antinode?**
